@@ -204,20 +204,39 @@ El estadar de markdown nos permite incrustar imagenes dentro de nuestro document
 
  ¡[Texto que el usuario leera](ur1 donde se encuentra la imagen)
 
- Ejemplo:
- ¡[Forg](./IMAGENES/perro.jpg)
- es importante comprender que la resolucion de la imagen sera la originalidad del archivo.
 
- ***    tipo PRO    ***
- 
+Ejemplo:
+<img src="./imagenes/img1.webp" width = "200" heigth = "80">
 
+es importante comprender que la resolución de la imagén será la original del archivo.
 
+**Tip PRO**
+Si el tamaño de la imagen no se ajusta a lo que deseas par atu documento, lo más recomendable es ajustar el tamaño del archivo original con algún software procesador de imagenes como: Paint, illustrator, ink o photoshop. Pero si quieres modificarlo desde el código, el estandar no tiene parametros definidos por que necesitamos utlizar códido HTML
 
+Cambiando la estructura de maquetado por la etiqueta ```<img>```
 
+Ejemplo:
+<img src="./imagenes/img1.webp" width = "100" heigth = "50">
 
+### 10. Nota al pie
+### [Footnotes](https://github.com/markdown-it/markdown-it-footnote)
 
- s
- ññ
+Si nuestra documentación require ubicar notas de importancia o relevancia posterior podemos usar notas al pie de manera dinámica
+Nota al pie 1[^first] y Nota al pie 2[^second].
 
+Referencias al pie dentro de un párrafo[^nota-interna] extenso dentro de nuestra documentación.
 
- 
+Segunda referencia a la nota 2[^second].
+
+---
+Nota al pie 1<href id="ref1">[^1]</href> y Nota al pie 2<href id="ref2">[^2]</href>.
+
+Referencias al pie dentro de un párrafo extenso dentro de nuestra documentación.
+
+Segunda referencia a la nota 2<href id="ref2-doble">[^2]</href>.
+
+---
+
+* <a href="#ref1"></a> Texto de la primera nota al pie.
+* <a href="#ref2"></a> Texto de la segunda nota al pie.
+
