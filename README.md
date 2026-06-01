@@ -196,3 +196,28 @@ Ejemolo
 
 -Ligas internas
 [Acerca del Autor](./aboutme.md "Conoce más")
+
+### Imagenes
+El estadar de markdown nos permite incrustar imagenes dentro de nuestro documentacion lo que nos permirte poner logotipos, capturas de pantalla o cualquierarchivos graficos importantes.
+
+ La estructura varia un poco de las refencias de hipervinculos siendo;
+
+ ¡[Texto que el usuario leera](ur1 donde se encuentra la imagen)
+
+ Ejemplo:
+ ¡[Forg](./IMAGENES/perro.jpg)
+ es importante comprender que la resolucion de la imagen sera la originalidad del archivo.
+
+ ***    tipo PRO    ***
+ 
+
+
+
+
+
+
+ s
+ ññ
+
+
+ 
